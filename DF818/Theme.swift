@@ -5,10 +5,17 @@
 
 import SwiftUI
 
-// Colors are defined in Assets.xcassets and auto-generated as Color extensions:
-// - Color.deepStormBlue (Primary Background - Deep Storm Blue #0A1638)
-// - Color.goldGlow (Primary Accent - Gold Glow #E6B645)
-// - Color.mistyLightBlue (Secondary Accent - Misty Light Blue #BFD9FF)
+// MARK: - Theme Colors
+extension Color {
+    // Primary Background - Deep Storm Blue #0A1638
+    static let deepStormBlue = Color(red: 0.039, green: 0.086, blue: 0.220)
+    
+    // Primary Accent - Gold Glow #E6B645
+    static let goldGlow = Color(red: 0.902, green: 0.714, blue: 0.271)
+    
+    // Secondary Accent - Misty Light Blue #BFD9FF
+    static let mistyLightBlue = Color(red: 0.749, green: 0.851, blue: 1.000)
+}
 
 // MARK: - Theme Gradients
 struct ThemeGradients {
